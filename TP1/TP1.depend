@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567599076 source:c:\users\alumno\desktop\tp1\juancc.c
+	<stdio.h>
+	<stdlib.h>
+
+1567599950 source:c:\users\alumno\desktop\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juancc.h"
+
+1567599347 c:\users\alumno\desktop\tp1\juancc.h
+
