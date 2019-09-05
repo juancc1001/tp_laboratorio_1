@@ -2,13 +2,14 @@
 #define JUANCC_H_INCLUDED
 /** \brief Crea manu de opciones para calculadora con dos parametros.
  *
- * \param flag bandera, verifica el ingreso de parametros.
+ * \param flagA bandera, verifica el ingreso del primer parametro.
+ * \param flagB bandera, verifica el ingreso del segundo parametro
  * \param A primer operando
  * \param B segundo operando
  * \return opcion.
  *
  */
-int menu(int flag, int A, int B);
+int menu(int flagA, int flagB, int A, int B);
 /** \brief Suma dos enteros
  *
  * \param A primer operando tipo interer

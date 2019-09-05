@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int menu(int flag, int A, int B){
+int menu(int flagA, int flagB, int A, int B){
     int opcion;
-    if(flag==0){
+    if(flagA==0 && flagB==0){
     system("cls");
     printf("-----Manu de Opciones-----\n");
     printf("1.Ingresar primer operando (A=x)\n");
@@ -17,7 +17,7 @@ int menu(int flag, int A, int B){
     fflush(stdin);
     scanf("%d", &opcion);
     system("cls");
-    }else if(flag==1){
+    }else if(flagA==1 && flagB==0){
     system("cls");
     printf("-----Manu de Opciones-----\n");
     printf("1.Ingresar primer operando (A= %d)\n",A);
@@ -31,7 +31,21 @@ int menu(int flag, int A, int B){
     fflush(stdin);
     scanf("%d", &opcion);
     system("cls");
-    }else if(flag==2){
+    }else if(flagA==1 && flagB==1){
+    system("cls");
+    printf("-----Manu de Opciones-----\n");
+    printf("1.Ingresar primer operando (A= %d)\n",A);
+    printf("2.Ingresar segundo operando (B= %d)\n",B);
+    printf("3.Calcular suma (A+B)\n");
+    printf("4.Calcular Resta (A-B)\n");
+    printf("5.Calcular Division (A/B)\n");
+    printf("6.Calcular Multiplicacion (A*B)\n");
+    printf("7.Calcular Factorial (A!)\n");
+    printf("8.Salir\n");
+    fflush(stdin);
+    scanf("%d", &opcion);
+    system("cls");
+    }else if(flagA==1 && flagB==0){
     system("cls");
     printf("-----Manu de Opciones-----\n");
     printf("1.Ingresar primer operando (A= %d)\n",A);
