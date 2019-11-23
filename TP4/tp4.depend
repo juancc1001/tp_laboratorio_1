@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1574458356 source:c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574376747 c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\linkedlist.h
+
+1574466850 source:c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"cliente.h"
+	"controller.h"
+
+1574466821 source:c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"cliente.h"
+
+1574466821 c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\cliente.h
+
+1574466821 c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\controller.h
+
+1574466946 source:c:\users\pc-1\desktop\juan el programadore\tps-lab1\tp4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"cliente.h"
+
